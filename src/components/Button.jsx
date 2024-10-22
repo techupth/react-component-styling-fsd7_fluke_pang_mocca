@@ -1,15 +1,41 @@
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
 // Start coding here
 
 export default function Button({ type }) {
   if (type === "primary") {
     return (
-      <button className="bg-blue-700 font-normal text-base text-white w-[171px] h-[50px] px-4 rounded-md">
+      <button
+        css={css`
+          font-size: 1rem;
+          font-weight: 400;
+          color: white;
+          width: 171px;
+          height: 50px;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          border-radius: 6px;
+          background-color: #074ee8;
+          margin: 1px;
+        `}>
         Button
       </button>
     );
   } else {
     return (
-      <button className="bg-blue-400 font-normal text-base text-white w-[171px] h-[50px] px-4 rounded-md">
+      <button
+        css={css`
+          font-size: 1rem;
+          font-weight: 400;
+          color: white;
+          width: 171px;
+          height: 50px;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          border-radius: 6px;
+          background-color: #07a4e8;
+          margin: 1px;
+        `}>
         Button
       </button>
     );
