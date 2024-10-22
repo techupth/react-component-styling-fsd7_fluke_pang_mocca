@@ -40,7 +40,6 @@ export function Alert({ type }) {
                 gap: 5px;
                 width: 650px;
                 height: 76px;
-                padding: 20px;
                 margin: 10px;
                 border-radius: 10px;
                 color: black;
